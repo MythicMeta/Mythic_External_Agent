@@ -38,7 +38,7 @@ Setting this value to `true` means that after cloning down the remote repository
 
 ### exclude_c2_profiles
 
-Fill this array with a list of the c2 profiles that should be excluded from being copied to the local Mythic `C2_Profiles` folder. Similar to the `exclude_payload_type` parameter, this one allows you to skip trying to turn certain C2 Profiles into Docker images and allows the installation of those profiles on remote computers/VMs.
+Setting this value to `true` means that after cloning down the remote repository, the installer program wil _NOT_ copy the contents of the `C2_Profiles` folder into the local `C2_Profiles` folder. This is helpful for when an agent's C2 Profiles might need to run on a different Computer/VM and _not_ used as part of a Docker deployment locally to Mythic.
 
 ### exclude_documentation_payload
 
