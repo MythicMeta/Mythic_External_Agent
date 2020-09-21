@@ -1,0 +1,6 @@
+{
+	"exclude_payload_type": false,
+	"exclude_c2_profiles": [],
+	"exclude_documentation_payload": false,
+	"exclude_documentation_c2": false
+}
