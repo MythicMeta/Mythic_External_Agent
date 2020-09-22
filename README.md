@@ -24,9 +24,13 @@ Example: https://github.com/its-a-feature/Mythic/tree/master/documentation-docke
 
 ### documentation-payload
 
-This folde contains all of the contents for the documentation-docker container that pertains to your new payload type. If you have no documentation (you reall should though), then leave this folder empty.
+This folder contains all of the contents for the documentation-docker container that pertains to your new payload type. If you have no documentation (you reall should though), then leave this folder empty.
 
 Example: https://github.com/its-a-feature/Mythic/tree/master/documentation-docker/content/Agents 
+
+### agent_icons
+
+This folder contains the svg icons that should be used for the agent. This svg icon is used on the Payload Types page, on the active callbacks page, and when viewing the graph/tree modes of your callbacks.
 
 ## Config.json
 
@@ -46,4 +50,8 @@ Setting this value to `true` will prevent Mythic from copying the contents into 
 
 ### exclude_documentation_c2
 
-Setting this value to `true` will prevent Mythic from copying the vontents into the documentation-docker's c2 folders.
+Setting this value to `true` will prevent Mythic from copying the contents into the documentation-docker's c2 folders.
+
+### exclude_agent_icons
+
+Setting this value to `true` will prevent Mythic from copying the contents into the mythic-docker/app/static folder with the other icons.
