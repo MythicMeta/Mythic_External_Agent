@@ -2,6 +2,10 @@
 
 This repo defines the folder structure for an external Mythic agent that can be remotely "installed" into a Mythic instance. This process allows users to create their own Mythic agents and host them on their own GitHub repositories while also allowing an easy process to install agents.
 
+## How to use this git project
+
+This project is a template for what _your_ git-based repository should look like. Simply copy/fork this project and update it with your agent's information. Then, you can use the corresponding install script from within the Mythic repo to install this agent. The Mythic install script for 3rd party agents should work for any git-based repository (GitHub, GitLab, Bitbucket, etc).
+
 ## Folder Structure
 
 ### Payload_Type
