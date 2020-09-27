@@ -32,6 +32,12 @@ This folder contains all of the contents for the documentation-docker container 
 
 Example: https://github.com/its-a-feature/Mythic/tree/master/documentation-docker/content/Agents 
 
+### documentation-wrapper
+
+If you are creating any "wrapper" style payload types, the documentation for those go in a slightly different location with a slightly different format. Wrapper payload types don't have any C2 or commands associated with them; instead, they take in another agent and "wrap" it with a more generic mechanism (service executable, office macro, obfuscation, etc). While the wrapper payload type code goes into the same Payload_Type area, the documentation is broken out. Copy that documentation here similar to:
+
+https://github.com/its-a-feature/Mythic/tree/master/documentation-docker/content/Wrappers
+
 ### agent_icons
 
 This folder contains the svg icons that should be used for the agent. This svg icon is used on the Payload Types page, on the active callbacks page, and when viewing the graph/tree modes of your callbacks.
