@@ -4,7 +4,12 @@ This repo defines the folder structure for an external Mythic agent that can be 
 
 ## How to use this git project
 
-This project is a template for what _your_ git-based repository should look like. Simply copy/fork this project and update it with your agent's information. Then, you can use the corresponding install script from within the Mythic repo to install this agent. The Mythic install script for 3rd party agents should work for any git-based repository (GitHub, GitLab, Bitbucket, etc).
+This project is a template for what _your_ git-based repository should look like. Simply copy/fork this project and update it with your agent's information. Then, you can use the corresponding install command from within the Mythic repo to install this agent. The Mythic install script for 3rd party agents should work for any git-based repository (GitHub, GitLab, Bitbucket, etc).
+
+```
+sudo ./mythic-cli install github <url to your agent> [optional branch name]
+```
+
 
 ## Folder Structure
 
